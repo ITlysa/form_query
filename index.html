@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="card mt-5">
+                    <div class="card-header text-center">Form</div>
+                    <div class="card-body">
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="text" id="text" class="form-control" placeholder="Text...">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="des" class="form-control" placeholder="Description...">
+                            </div>
+                            <div class="form-group">
+                                <select id="sub" class="form-control">
+                                    <option value="">Select Subject...</option>
+                                    <option value="Java">Java</option>
+                                    <option value="JQuery">JQuery</option>
+                                    <option value="PHP">PHP</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                    <input type="radio" class="form-check-inline gender" name="gender" value="Female">Female
+                                    <input type="radio" class="form-check-inline gender" name="gender" value="Male">Male
+                            </div>
+                            <div class="form-check-inline" id="fruit">
+                                <input type="checkbox" class="form-check-input fruit" value="Mango" name="fruit">Mango
+                                <input type="checkbox"  class="form-check-input fruit" value="Banana" name="fruit">Banana
+                                <input type="checkbox" class="form-check-input fruit" value="Coconut" name="fruit">Coconut
+                                <input type="checkbox" class="form-check-input fruit" value="Jackfruit" name="fruit">Jackfruit
+                            </div>              
+                        </form>
+                        
+                    </div>
+                </div><br>
+                <div class="alert alert-success" id="val1"></div>
+                <div class="alert alert-primary" id="val2"></div>
+                <div class="alert alert-warning" id="val3"></div>
+                <div class="alert alert-danger" id="val4"></div>
+                <div class="alert alert-secondary" id="val5"></div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
